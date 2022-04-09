@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <style>
+          .btn {
+		border-radius: 30px;
+		box-shadow: 7px 3px 3px rgba(180, 180, 180, 0.959);
+        cursor: pointer;
+        width: 100px;
+	}
+    .btn2 {
+		border-radius: 30px;
+        width: 100px;
+		box-shadow: 7px 3px 3px rgba(180, 180, 180, 0.959);
+        cursor: pointer;
+	}
+    </style>
+</head>
+<body>
+
+<marquee>
+    <h2>Paga chocolate pra nos?</h2> 
+    <!-- <h3>abacate banana mamão  </h3> -->
+   <!-- <h1>{{.Nome}}</h1> -->
+</marquee>
+  <div>
+      <button id="botao" class="btn">
+          Sim
+      </button>
+      <button id="botao2" class="btn">
+        não
+    </button>
+      <script>
+          var botao = document.getElementById("botao")
+          botao.onclick = function () {
+              alert("aeeeeeeeeeeeee :)")
+          }
+          var botao2 = document.getElementById("botao2")
+          botao2.onclick = function () {
+              alert("RESPOSTA ERRADA !!!Você não pode clicar aqui! ")
+          }
+      </script>
+  </div>
+</body>
+</html>
