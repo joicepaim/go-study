@@ -1,2 +1,2 @@
 # go-study
-aprendizado go lang
+anotações de aprendizado de uma iniciante em go lang :)
